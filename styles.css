@@ -75,8 +75,13 @@ ABOUT
 
 */
 
-#about {
+#about,
+#discord,
+#contact {
   padding: 48px 0;
+}
+
+#about{
   background-color: #f8ffdc;
 }
 
@@ -100,7 +105,7 @@ img {
   width: 100%;
 }
 
-.section_description--wrapper {
+.section__description--wrapper {
   width: 60%;
   padding: 0 24px;
 }
@@ -114,5 +119,16 @@ img {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 24px;
+}
+
+/*
+
+DISCORD
+
+*/
+
+#discord{
+  background-color:#cefeff;
+  
 }
 
