@@ -36,46 +36,50 @@
     <main>
       <section id="about">
         <h2>About</h2>
-        <div class="section_description">
-          <div class="section__description--wrapper">
-            <p class="section__description--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              ex obcaecati, impedit corrupti saepe laudantium provident
-              praesentium sequi incidunt ea in exercitationem hic, rem dolore
-              qui? Vitae omnis libero dolor.
-            </p>
-            <p class="section__description--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              ex obcaecati, impedit corrupti saepe laudantium provident
-              praesentium sequi incidunt ea in exercitationem hic, rem dolore
-              qui? Vitae omnis libero dolor.
-            </p>
+        <div class="row">
+          <div class="section_description">
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                ex obcaecati, impedit corrupti saepe laudantium provident
+                praesentium sequi incidunt ea in exercitationem hic, rem dolore
+                qui? Vitae omnis libero dolor.
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                ex obcaecati, impedit corrupti saepe laudantium provident
+                praesentium sequi incidunt ea in exercitationem hic, rem dolore
+                qui? Vitae omnis libero dolor.
+              </p>
+            </div>
+            <figure class="about__img--wrapper">
+              <img src="./assets/about.jpg" alt="" />
+            </figure>
           </div>
-          <figure class="about__img--wrapper">
-            <img src="./assets/about.jpg" alt="" />
-          </figure>
         </div>
       </section>
 
       <section id="discord">
         <h2>Discord</h2>
-        <div class="section_description">
-          <figure class="about__img--wrapper">
-            <img src="./assets/discord.png" alt="" />
-          </figure>
-          <div class="section__description--wrapper">
-            <p class="section__description--para">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
-              culpa ratione minus, provident quasi maxime veniam distinctio modi
-              et quos rem corporis ut, impedit vitae ipsam doloribus nesciunt
-              molestiae nostrum?
-            </p>
-            <p class="section__description--para">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
-              culpa ratione minus, provident quasi maxime veniam distinctio modi
-              et quos rem corporis ut, impedit vitae ipsam doloribus nesciunt
-              molestiae nostrum?
-            </p>
+        <div class="row">
+          <div class="section_description">
+            <figure class="about__img--wrapper">
+              <img src="./assets/discord.png" alt="" />
+            </figure>
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
+                culpa ratione minus, provident quasi maxime veniam distinctio
+                modi et quos rem corporis ut, impedit vitae ipsam doloribus
+                nesciunt molestiae nostrum?
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
+                culpa ratione minus, provident quasi maxime veniam distinctio
+                modi et quos rem corporis ut, impedit vitae ipsam doloribus
+                nesciunt molestiae nostrum?
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -86,19 +90,22 @@
           <label>Email</label>
           <input type="email" placeholder="jane@example.com" />
           <label>Message</label>
-          <textarea type="text" placeholder="Cool website, lets get connected!"></textarea>
+          <textarea
+            type="text"
+            placeholder="Cool website, lets get connected!"
+          ></textarea>
           <button>Contact Us!</button>
         </form>
       </section>
     </main>
 
     <footer>
-      <img src="./assets/FES.svg" alt="" />
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="">Courses</a>
+      <img class="footer__logo" src="./assets/FES.svg" alt="" />
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="">Courses</a>
       </div>
     </footer>
   </body>
